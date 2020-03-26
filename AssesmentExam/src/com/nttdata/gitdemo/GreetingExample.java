@@ -19,7 +19,7 @@ public class GreetingExample {
 			System.out.println("Good Afternoon...!! "+name);
 		else
 			System.out.println("Good Evening...!! "+name);
-		
+		System.out.println("Thank You");
 	}
 
 }
