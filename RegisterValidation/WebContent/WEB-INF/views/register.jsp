@@ -13,6 +13,8 @@ color: red;
 </style>
 </head>
 <body>
+<center>
+	<h2>Registration Form</h2>
   <form:form action="/RegisterValidation/registerSuccess" method="post" modelAttribute="user">
   <table>
 			<tr>
@@ -28,7 +30,7 @@ color: red;
 			</tr>
 
 			<tr>
-				<td>Age</td>
+				<td>User Age</td>
 				<td><form:input path="age"/></td>
 				<td><form:errors path="age" cssClass="error"/></td>
 			</tr>
@@ -38,7 +40,7 @@ color: red;
 				<td>
 				<form:select path="country">
 				<form:option value="India">India</form:option>
-				<form:option value="US">US</form:option>
+				<form:option value="Singapore">US</form:option>
 				<form:option value="Other">Other</form:option>
 				</form:select>
 				</td>
@@ -50,5 +52,6 @@ color: red;
 			</tr>
     </table>
   </form:form>
+</center>
 </body>
 </html>
