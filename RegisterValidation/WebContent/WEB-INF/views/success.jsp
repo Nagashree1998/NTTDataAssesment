@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
+    <center>
 <h1>Registraction Successful</h1>
+        </center>
 </body>
 </html>
